@@ -31,9 +31,9 @@ class MarksController extends Controller
     {
 
         $request->validate([
-            'maths'         => 'required|number',
-            'science'       => 'required|number',
-            'history'       => 'required|number',
+            'maths'         => 'required|integer',
+            'science'       => 'required|integer',
+            'history'       => 'required|integer',
             'term'          => 'required'
         ]);
 
@@ -71,9 +71,9 @@ class MarksController extends Controller
     {
 
         $request->validate([
-            'maths'         => 'required|number',
-            'science'       => 'required|number',
-            'history'       => 'required|number',
+            'maths'         => 'required|integer',
+            'science'       => 'required|integer',
+            'history'       => 'required|integer',
             'term'          => 'required'
         ]);
 
